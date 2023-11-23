@@ -1,0 +1,74 @@
+/* Write your CSS here */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbarContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  padding: 5px;
+  max-width: 1100px;
+}
+@media screen and (min-width: 768px) {
+  .navbarContent {
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+.navbarBgDark {
+  background-color: #333333;
+}
+
+.navbarBgLight {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.websiteLogo {
+  height: 50px;
+  margin-left: 15px;
+}
+
+.navMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  list-style-type: none;
+}
+
+.navMenuItem {
+  width: 100%;
+  padding: 12px;
+}
+
+.listTextLightTheme {
+  color: #171f46;
+}
+
+.listTextDarkTheme {
+  color: #ffffff;
+}
+
+.navLink {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.themeButton {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.themeImage {
+  height: 30px;
+}

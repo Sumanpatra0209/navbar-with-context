@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.homeAppContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.homeBgDark {
+  background-color: #000000;
+}
+
+.homeBgLight {
+  background-color: #ffffff;
+}
+
+.homeResponsiveContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.homeImage {
+  height: 125px;
+}
+
+.homeHeading {
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+@media screen and (min-width: 768px) {
+  .homeHeading {
+    font-size: 50px;
+  }
+}
+
+.homeTextLight {
+  color: #ffffff;
+}
+
+.homeTextDark {
+  color: #1e293b;
+}

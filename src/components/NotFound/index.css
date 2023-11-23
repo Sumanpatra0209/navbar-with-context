@@ -1,0 +1,78 @@
+/* Write your CSS here */
+.notFoundAppContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.notFoundBgDark {
+  background-color: #000000;
+}
+
+.notFoundBgLight {
+  background-color: #ffffff;
+}
+
+.notFoundResponsiveContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.notFoundContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  padding: 20px;
+}
+
+.notFoundImg {
+  width: 250px;
+}
+@media screen and (min-width: 768px) {
+  .notFoundImg {
+    width: 400px;
+  }
+}
+
+.notFoundHeading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+@media screen and (min-width: 768px) {
+  .notFoundHeading {
+    font-size: 35px;
+  }
+}
+
+.notFoundHeadingTextLight {
+  color: #f8fafc;
+}
+
+.notFoundHeadingTextDark {
+  color: #334155;
+}
+
+.notFoundContent {
+  font-family: 'Roboto';
+  font-size: 15px;
+  line-height: 1.7;
+}
+@media screen and (min-width: 768px) {
+  .notFoundContent {
+    font-size: 15px;
+  }
+}
+
+.notFoundContentTextLight {
+  color: #f8fafc;
+}
+
+.notFoundContentTextDark {
+  color: #64748b;
+}

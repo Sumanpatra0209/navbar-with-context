@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.aboutAppContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.aboutBgDark {
+  background-color: #000000;
+}
+
+.aboutBgLight {
+  background-color: #ffffff;
+}
+
+.aboutPageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.aboutImage {
+  height: 125px;
+}
+
+.aboutHeading {
+  font-family: 'Roboto';
+  font-size: 32px;
+}
+@media screen and (min-width: 768px) {
+  .aboutHeading {
+    font-size: 48px;
+  }
+}
+
+.aboutTextLight {
+  color: #ffffff;
+}
+
+.aboutTextDark {
+  color: #1e293b;
+}
